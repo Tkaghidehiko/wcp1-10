@@ -26,6 +26,7 @@ header {
 .nav-list {
 	float: right;
 	text-align: center;
+	line-height: 24px;
 	padding: 20px 0;
 	margin: 3px auto;
 }
@@ -159,7 +160,7 @@ main {
 }
 .feature-body {
 	width: 100%;
-	height: auto;
+	height: 750px;
 	background-color: white;
 	margin: 100px 0 0 0;
 	padding: 90px 0;
@@ -323,7 +324,6 @@ main {
 .contact-body {
 	width: 100%;
 	background-color: white;
-	margin: 100px 0 0 0;
 	padding: 90px 0;
 }
 .contact {
@@ -362,6 +362,11 @@ main {
 	margin: 30px auto 90px;
 	float: left;
 }
+.four-hundred1, .four-hundred2 {
+	width: 400;
+	text-align: center;
+	text-align: left;
+}
 .contact-item1, .contact-item2 {
 	font-size: 20px;
 	margin: 0 auto 5px;
@@ -375,37 +380,44 @@ main {
 .mail , .tell{
 	margin: 0 auto 20px;
 	padding-left: 150px;
+	text-decoration-line: underline;
 }
 .social {
 	position: absolute;
 	top: 42px;
-	right: 64px;
+	right: 130px;
 }
 .social i {
 	display: inline-block;
-	margin: 0 22px;
+	margin: 0 10px;
 }
 footer {
   width: 100%;
   height: 60px;
   text-align: center;
-  padding: 22px 0;
   margin: 0 auto;
   background-color: #EC715F;
 }
 .footer-text {
 	font-size: 16px;
+	line-height: 60px;
   color: #fff;
 }
 
+
+/* レスポシヴィリティ */
+
 @media screen and (max-width:1024px) {
+	body {
+		width: 400px;
+	}
 	header {
 		position: relative;
 		width: 100%;
 		height: 50px;
 	}
 	.header-visual {
-		width: 80%;
+		width: 90%;
 		height: 50px;
 		margin: 0 auto;
 	}
@@ -480,7 +492,7 @@ footer {
 	width: 100%;
 	height: 510px;
 	background-color: #ECEFF1;
-	margin: 0 auto 90px;
+	margin: 0 auto 130px;
 }
 
 .portfollio-item1 {
@@ -535,14 +547,15 @@ footer {
 	width: 100%;
 	height: auto;
 	background-color: white;
-	margin: 30px auto 90px;
+	margin: 0 auto ;
+    padding: 90px 0 20px;
 }
 .feature {
 	position: relative;
 	width: 320px;
 	height: auto;
 	background-color: white;
-	margin: 30px auto 90px;
+	margin: 0 auto 90px;
 	padding: 30px auto 90px;
 }
 .feature-headline {
@@ -561,7 +574,7 @@ footer {
 	width: 320px
 	font-size: 16px;
 	color: #000000;
-	margin: 0 auto 100px;
+	margin: 0 auto 30px;
 	text-align: center;
 }
 
@@ -637,10 +650,10 @@ footer {
 
 .profile {
 	width: 350px;
-	height: auto;
+	height: 1030px;
 	background-color: #ECEFF1;
 	margin: 0 auto;
-	padding: 90px auto;
+	padding-top: 90px;
 	clear: both;
 
 }
@@ -649,7 +662,7 @@ footer {
 	color: #000000;
 	text-align: center;
 	margin-bottom: 8px;
-	padding-top: 90px;
+	padding-top: 0;
 }
 .profile-bar {
 	width: 70px;
@@ -709,16 +722,15 @@ footer {
 }
 .contact-body {
 	width: 100%;
-	height: 700px;
+	height: 750px;
 	background-color: white;
-	margin: 200px auto 0;
-	padding: 200px auto 0;
+	padding: 90px 0 0;
+	margin: 100px 0 0 0;
 	text-align: center;
 }
 .contact {
-	width: 80%;
+	width: 100%;
 	height: 380px;
-	margin: 0 auto;
 	text-align: center;
 }
 .contact-headline {
@@ -741,52 +753,56 @@ footer {
 	margin: 0 auto;
 }
 .contact-box1 {
-	width: 100%;
+	width: 400px;
 	height: auto;
-	margin: 30px auto 90px;
+	margin: 30px auto 20px;
 	float: none;
 	text-align: center;
 }
 .contact-box2 {
-	position: relative;
-	width: 100%;
-	height: auto;
-	margin: 30px auto 90px;
+	width: 400px;
+	height: 100px;
+	margin: 0 auto;
 	float: none;
 }
 .contact-item1, .contact-item2 {
 	width: 100%;
 	font-size: 20px;
 	margin: 0 0 5px;
+	padding-left: 0;
 }
 .contact-item3 {
 	width: 100%;
 	font-size: 20px;
-	margin: 0 0 5px;
+	margin: 0 auto 5px;
+	padding-left: 0;
 }
 .mail , .tell{
+	width: 100%
 	margin: 0 0 20px;
+	padding-left: 0;
 }
 ..social {
-	position: absolute;
-	top: 42px;
-	right: 64px;
+	right: 0px;
+	width: 100%;
+	margin: 0 auto;
 }
 .social i {
 	display: inline-block;
-	margin: 0 22px;
+	margin: 0 4px;
 }
 footer {
   width: 100%;
   height: 60px;
   text-align: center;
-  padding: 200px auto 0;
-  margin: 200px auto 0;
+  padding: 0 auto;
+  margin: 0 auto;
   background-color: #EC715F;
 }
 .footer-text {
+	line-height: 60px;
 	font-size: 16px;
-  color: #fff;
+    color: #fff;
 }
 
 		.menu-trigger,
@@ -797,28 +813,35 @@ footer {
 }
 .menu-trigger {
   position: absolute;
-  top: 3px;
-  right: 20px;
-  width: 50px;
-  height: 44px;
-  border: 2px solid white;
+  top: 5px;
+  right: 15px;
+  width: 41px;
+  height: 41px;
+  border: 1px solid white;
 }
 .menu-trigger span {
   position: absolute;
   bottom: 0px;
-  right: 3px;
-  width: 40px;
-  height: 3px;
+  right: 6px;
+  width: 26px;
+  height: 2px;
   background-color: #fff;
   border-radius: 4px;
 }
 .menu-trigger span:nth-of-type(1) {
-  margin: 4px 0 31px;
+  margin: 0px 0 26px;
 }
 .menu-trigger span:nth-of-type(2) {
-  margin: 5px 0 18px;
+  margin: 0px 0 19px;
 }
 .menu-trigger span:nth-of-type(3) {
-  margin: 5px 0 6px;
+  margin: 0px 0 12px;
+}
+body {
+	height: 5420px;
+	margin: 0;
+}
+.social {
+	position:static;
 }
 }

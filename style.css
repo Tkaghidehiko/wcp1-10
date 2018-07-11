@@ -409,7 +409,8 @@ footer {
 
 @media screen and (max-width:1024px) {
 	body {
-		width: 400px;
+		width: 100%;
+		margin: 0;
 	}
 	header {
 		position: relative;
@@ -838,6 +839,7 @@ footer {
   margin: 0px 0 12px;
 }
 body {
+
 	height: 5420px;
 	margin: 0;
 }
